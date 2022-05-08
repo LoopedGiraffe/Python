@@ -53,7 +53,7 @@ spock = '''
 
 import random
 chosen = int(input("\nPrint: \n0 for rock \n1 for paper \n2 for scissors \n3 for lizard \n4 for Spock \nWhat is your choice? \n"))
-computer_choice = random.randint(0, 2)
+computer_choice = random.randint(0, 4)
 
 if chosen >= 0 and chosen <= 4:
 
