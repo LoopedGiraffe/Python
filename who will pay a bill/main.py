@@ -10,3 +10,7 @@ random_name_number = random.randint(0, (number_of_names-1))
 will_pay = names[random_name_number]
 
 print(f"{will_pay} is going to buy the meal today!")
+
+# simpler way: 
+# with usage of random.choice() method:
+#  will_pay = random.choice(names)
